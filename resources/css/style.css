@@ -6,3 +6,8 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
