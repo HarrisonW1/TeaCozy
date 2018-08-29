@@ -30,3 +30,8 @@ a {
   color: seashell;
   text-decoration: underline;
 }
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
