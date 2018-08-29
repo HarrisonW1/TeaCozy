@@ -1,3 +1,5 @@
+/* The entire body */
+
 body {
   font-family: "Helvetica";
   font-size: 22px;
@@ -6,6 +8,8 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+/* Header */
 
 .flex-container {
   display: flex;
@@ -21,10 +25,14 @@ header {
   align-items: center;
 }
 
+/* Logo */
+
 header img {
   height: 50px;
   padding-left: 10px;
 }
+
+/* Navigation links */
 
 a {
   color: seashell;
@@ -32,6 +40,13 @@ a {
 }
 
 nav {
-    text-align: right;
-    flex-grow: 1;
+  text-align: right;
+  flex-grow: 1;
+  /* flex-grow cannot be less than 1 */
+}
+
+nav span {
+  display: inline-block;
+  /* inline-block creates a box around the elements */
+  padding: 20px 10px;
 }
