@@ -13,6 +13,12 @@ body {
   flex-wrap: wrap;
 }
 
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+}
+
 header img {
   height: 50px;
   padding-left: 10px;
