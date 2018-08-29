@@ -25,3 +25,8 @@ header img {
   height: 50px;
   padding-left: 10px;
 }
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
