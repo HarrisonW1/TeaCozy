@@ -17,6 +17,7 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   position: fixed;
+  width: 100%;
 }
 
 header img {
