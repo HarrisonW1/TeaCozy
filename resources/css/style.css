@@ -50,3 +50,9 @@ nav span {
   /* inline-block creates a box around the elements */
   padding: 20px 10px;
 }
+
+/* div class main */
+
+.main {
+  width: 1200px;
+}
