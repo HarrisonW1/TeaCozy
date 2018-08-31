@@ -67,7 +67,12 @@ nav span {
 }
 
 .flex-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission .content {
+  background-color: black;
+  width: 100%;
 }
