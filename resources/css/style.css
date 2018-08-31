@@ -65,3 +65,9 @@ nav span {
   height: 700px;
   padding-top: 70px;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
