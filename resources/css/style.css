@@ -56,3 +56,8 @@ nav span {
 .main {
   width: 1200px;
 }
+
+#mission {
+  background-image: url(../../resources/Images/img-mission-background.jpg);
+  height: 700px;
+}
