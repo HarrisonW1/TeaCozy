@@ -104,17 +104,18 @@ h2, h4, h4 {
 }
 
 #locations {
-    background-image: url(../../resources/Images/img-locations-background.jpg);
-    height: 500px;
+  background-image: url(../../resources/Images/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
 }
 
 .location {
-    opacity: 1;
-    padding: 10px;
-    margin: 5px 20px;
-    background-color: black;
-    flex-basis: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  opacity: 1;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
