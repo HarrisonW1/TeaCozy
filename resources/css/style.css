@@ -82,6 +82,7 @@ h2, h4 {
 #store {
   width: 1000px;
   margin: auto;
+  padding-top: 70px;
 }
 
 .item img {
