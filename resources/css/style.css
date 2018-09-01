@@ -98,4 +98,6 @@ h2, h4 {
 
 .item span {
   font-weight: bold;
+  display: block;
+  padding: 5px;
 }
