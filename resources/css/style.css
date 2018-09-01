@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-/* Header */
+/* Header Section */
 
 .flex-container {
   display: flex;
@@ -28,14 +28,14 @@ header {
   flex: 1;
 }
 
-/* Logo */
+/* Header Section - Logo */
 
 header img {
   height: 50px;
   padding-left: 10px;
 }
 
-/* Navigation links */
+/* Header Section - Navigation links */
 
 a {
   color: seashell;
@@ -45,16 +45,14 @@ a {
 nav {
   text-align: right;
   flex-grow: 1;
-  /* flex-grow cannot be less than 1 */
 }
 
 nav span {
   display: inline-block;
-  /* inline-block creates a box around the elements */
   padding: 20px 10px;
 }
 
-/* div class main */
+/* Main - Except contact and footer */
 
 .main {
   width: 1200px;
@@ -62,11 +60,15 @@ nav span {
   margin: auto;
 }
 
+/* Mission Section */
+
 #mission {
   background-image: url(../../resources/Images/img-mission-background.jpg);
   height: 700px;
   padding-top: 70px;
 }
+
+/* Mission Section - Content */
 
 #mission .content {
   background-color: black;
@@ -74,10 +76,14 @@ nav span {
   margin: auto;
 }
 
-h2, h4, h4 {
+/* Heading */
+
+h2, h3, h4 {
   margin: 0;
   padding: 10px;
 }
+
+/* Store Section */
 
 #store {
   width: 1000px;
@@ -85,6 +91,8 @@ h2, h4, h4 {
   padding-top: 70px;
   height: 700px;
 }
+
+/* Store Section - Images in the store section */
 
 .item img {
   height: 200px;
@@ -103,6 +111,8 @@ h2, h4, h4 {
   padding: 5px;
 }
 
+/* Location Section */
+
 #locations {
   background-image: url(../../resources/Images/img-locations-background.jpg);
   height: 500px;
@@ -118,4 +128,17 @@ h2, h4, h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+/* Contact Section */
+
+#contact {
+  height: 200px;
+}
+
+/* Footer Section */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
