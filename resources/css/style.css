@@ -74,7 +74,7 @@ nav span {
   margin: auto;
 }
 
-h2, h4 {
+h2, h4, h4 {
   margin: 0;
   padding: 10px;
 }
@@ -100,4 +100,20 @@ h2, h4 {
   font-weight: bold;
   display: block;
   padding: 5px;
+}
+
+#locations {
+    background-image: url(../../resources/Images/img-locations-background.jpg);
+    height: 500px;
+}
+
+.location {
+    opacity: 1;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
