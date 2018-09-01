@@ -95,3 +95,7 @@ h2, h4 {
 .item {
   padding: 5px;
 }
+
+.item span {
+  font-weight: bold;
+}
